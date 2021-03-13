@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.onload=function(){
+        aleatorio();
+    }
+    </script>
+    <audio id="audioA" controls>
+        <source type="audio/mp3" src="sonidos/acierta.mp3">
+    </audio>
+    <audio id="audioF" controls>
+        <source type="audio/mp3" src="sonidos/falla.mp3">
+    </audio>
+    <section>  
+        <div id="hogares" >
+            <div id="hoga3" class="hab" ondrop="drop3(event)" ondragover="allowDrop(event)">
+                
+            </div>
+            <div id="hoga2" class="hab" ondrop="drop2(event)" ondragover="allowDrop(event)">
+                
+            </div>
+            <div id="hoga1" class="hab" ondrop="drop1(event)" ondragover="allowDrop(event)">
+                
+            </div>
+        </div> 
+        <div id="animales">
+            <div id="caja2" class="conteanim2">
+                <!-- <img id="pieza2" class="animalito" src="" alt="pieza2" draggable="true" ondragstart="drag(event)" > -->
+            </div>
+            <div id="caja1" class="conteanim1"> 
+                <!-- <img id="pieza1" class="animalito" src="" alt="pieza1" draggable="true" ondragstart="drag(event)" > -->
+            </div>
+            <div id="caja3" class="conteanim3">
+                <!-- <img id="pieza3" class="animalito" src="" alt="pieza3" draggable="true" ondragstart="drag(event)" > -->
+            </div>	
+            
+        </div>
+    </section>
+    </body>
+</html>
