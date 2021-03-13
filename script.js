@@ -4,7 +4,7 @@ var acierto = 0;
 const br = '<br>';
 
 function findeljuego() {
-    
+    window.location.href="index.html";
 }
 
 function cambio() {
